@@ -5,7 +5,7 @@
 [![Reward](https://make.fun/badge/news-image-20261119/rjrajput-web3/news-image-20261119-entry/reward.svg)](https://make.fun/c/news-image-20261119)
 
 A program that draws one front-page image summing up the world's news of
-Thursday, 19 November 2026 — 36 stories from six continents, all from
+Thursday, 19 November 2026 — 39 stories from six continents, all from
 that one day. The bounty page for this competition is
 https://make.fun/bounty/news-image-20261119
 
@@ -24,18 +24,19 @@ exact same rendering. No network, no randomness, no timestamps.
 ## How it is drawn
 
 `main.py` draws the whole front page itself with PIL: a serif masthead
-naming the date, a six-number stats strip, a region-count bar, three
+naming the date, a six-number stats strip, a region legend, three
 hero panels (the Shenzhen summit, GTA VI, Anthropic's Nasdaq debut),
-ten illustrated story cards with flat drawn scenes (the World Court's
-Rohingya judgment, tankers on fire after mine strikes east of Hormuz,
-Ukraine's third strike on the Crimean Bridge in a week, unrest in
-Bangladesh, Israel's ground operation in central Gaza, COP31's final
-48 hours, the Houthi missile that damaged Riyadh's tallest tower, the
-record $190.4m Van Gogh sale, Cyclone Akvan, the APEC Shenzhen
-Declaration), a world map with the 13 illustrated stories pinned, and
-29 numbered briefs. A DATE CHECK box names the stories first reported
-before 19 November (the Jeffries nomination, the EU's €45bn Ukraine
-loan plan, Voyager 1 crossing one light-day, Pew's 2035 projection)
-and keeps them off the page as news. Nothing is fetched or copied in
-at run time, and every story was checked against wire reporting of
-19 November 2026.
+ten illustrated story cards with bold flat drawn scenes (the World
+Court's Rohingya judgment, tankers on fire after mine strikes east of
+Hormuz, Ukraine's third strike on the Crimean Bridge in a week, unrest
+in Bangladesh, Israel's ground operation in central Gaza, COP31's
+final 48 hours, the Houthi missile that damaged Riyadh's tallest
+tower, the record $190.4m Van Gogh sale, Cyclone Akvan, the APEC
+Shenzhen Declaration), a world map with the 13 illustrated stories
+pinned and grey dots for the briefs, and 26 numbered briefs. A DATE
+CHECK box names the stories first reported before 19 November (the
+Jeffries nomination, the EU's €45bn Ukraine loan plan, Voyager 1
+crossing one light-day, Pew's 2035 projection) and the events still
+to come on 20 November, and keeps them all off the page as news.
+Nothing is fetched or copied in at run time, and every story was
+checked against wire reporting of 19 November 2026.
